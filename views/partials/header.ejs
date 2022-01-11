@@ -1,0 +1,17 @@
+<header>
+    <nav class="header-nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+        <ul>
+            <% if(user) { %>
+                <li class="header-email">Welcome, <%= user.email %></li>
+                <li class="btn"><a href="/logout">Log out</a></li>
+            <% } else { %>
+                <li class="btn"><a href="/login">Log in</a></li>
+                <li class="btn"><a href="/signup">Sign up</a></li>
+            <% } %>
+        </ul>
+    </nav>
+</header>

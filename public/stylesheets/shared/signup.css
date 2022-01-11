@@ -1,0 +1,88 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.signup-container{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(175, 30, 30), #aaa);
+}
+
+.signup-container form{
+    width: 350px;
+    background: rgba(168, 41, 41, 0.3);
+    padding: 30px 25px;
+    box-shadow: 0 6px 8px rgba(0,0,0,.3);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    border-top: 2px solid rgba(138, 40, 40, 0.6);
+    border-bottom: 2px solid rgba(138, 51, 51, 0.6);
+}
+
+.signup-container form i{
+    display: block;
+    height: 90px;
+    width: 90px;
+    line-height: 80px;
+    text-align: center;
+    color: #999;
+    border: 4px solid rgb(211, 22, 22);
+    border-radius: 50%;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.signup-container form .box{
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin: 8px 0;
+    font-size: 17px;
+    background: rgb(224, 194, 194);
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    text-transform: none;
+}
+
+.signup-container form input::placeholder{
+    color: rgb(214, 48, 48);
+}
+
+.signup-container form button{
+    height: 35px;
+    width: 140px;
+    border-radius: 50px;
+    color: #fff;
+    background: rgb(218, 55, 55);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}
+
+.signup-container form button:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.signup-container form div{
+    padding: 2px 0;
+    font-size: 15px;
+    color: rgb(243, 226, 226);
+}
+
+.signup-container form a{
+    color: #333;
+    font-size: 20px;
+}
