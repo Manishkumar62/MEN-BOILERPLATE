@@ -8,9 +8,6 @@
 
 https://github.com/Manishkumar62/MEN-BOILERPLATE
 
-![FLoraShop Banner](docs/HomePage.jpg)
-
-
 #### User authentication/login system
 
 Authentication is needed for clients to use the application - the primary purpose of the application. 
