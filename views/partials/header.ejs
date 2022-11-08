@@ -1,12 +1,12 @@
-<header>
+<header class="header-container">
     <nav class="header-nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li class="btn"><a href="/">Home</a></li>
+            <li class="btn"><a href="/blog">Blog</a></li>
         </ul>
         <ul>
             <% if(user) { %>
-                <li class="header-email">Welcome, <%= user.email %></li>
+                <li class="header-email">Welcome, <%= user.name %></li>
                 <li class="btn"><a href="/logout">Log out</a></li>
             <% } else { %>
                 <li class="btn"><a href="/login">Log in</a></li>

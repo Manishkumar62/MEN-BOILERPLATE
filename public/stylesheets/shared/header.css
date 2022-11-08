@@ -1,9 +1,10 @@
 .header-nav {
-    background: linear-gradient(#ddd, #aaa);
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 6px 8px rgba(122, 92, 92, 0.3);
+    border-radius: 15px;
 }
 
 .header-nav ul {
@@ -12,7 +13,6 @@
 }
 
 .header-nav li{
-    /* border: 1px solid red; */
     text-align: center;
     list-style: none;
     margin: 0px 10px;
@@ -22,24 +22,4 @@
 .header-email{
     font-style: italic;
     font-size: 20px;
-}
-
-.btn{
-    height: 38px;
-    width: 140px;
-    border-radius: 50px;
-    background: deeppink;
-    /* font-size: 20px; */
-    cursor: pointer;
-    box-shadow: 0 3px 5px rgba(0,0,0,.3);
-}
-
-.btn a{
-    color: #fff;
-    font-size: 20px;
-}
-
-.header-nav li a:hover{
-    letter-spacing: 2px;
-    opacity: .8;
 }

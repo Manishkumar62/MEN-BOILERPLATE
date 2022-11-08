@@ -11,4 +11,91 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
+    list-style-type: none;
+    color: #666;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div{
+    padding: 70px 100px;
+    box-shadow: 0 6px 8px rgba(0,0,0,.3);
+    border-radius: 15px;
+}
+
+.btn{
+    height: 32px;
+    width: 140px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.btn a{
+    /* color: #fff; */
+    font-size: 20px;
+}
+
+a:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.box{
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-size: 17px;
+    background: rgba(255,255,255,.4);
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    text-transform: none;
+}
+
+.box::placeholder{
+    color: #666;
+}
+
+button{
+    height: 35px;
+    width: 140px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}
+
+button:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.error{
+    padding: 4px 0;
+    font-size: 15px;
+    color: #666;
+}
+
+i{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: #999;
+    border: 4px solid #999;
+    border-radius: 50%;
+    font-size: 50px;
+    padding-top: 15px;
+    margin-bottom: 15px;
 }
